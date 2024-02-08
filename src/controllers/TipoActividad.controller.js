@@ -124,7 +124,7 @@ export const desactivarTipoActividad = async (req, res) => {
 }
 
 
-// CRUD - Buscar
+// CRUD -buscar
 export const buscarTipoActividad = async (req, res) => {
     try {
         const { nombre } = req.body;
